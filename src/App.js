@@ -1,26 +1,17 @@
-import './App.css';
-import { useState, useEffect } from 'react'
+// import logo from './images/logo.svg';
+// import IMAGES from './images/index.js';
 
-const white = {background: "white"}
-const blue = {background: "blue"}
+import './App.css';
 
 function App() {
-  const[color, setColor] = useState(white)
-  const click = () => {
-    setColor(color)
-  }
-  useEffect(() =>{
-    document.body.style.backgroundColor = color
-  }, [color])
-  
   return (
     <div className="App">
-      <button onClick = {
-        () => click("yellow")
-      }>Change color</button>
-      <div>Home Page</div>
+      <header className="App-header">
+        <p>New Home Page</p>
+      </header>
     </div>
-  );
+  )
 }
 
 export default App;
+
