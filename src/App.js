@@ -7,6 +7,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+
+        <div className="bg1"></div>
+
         <p>New Home Page</p>
       </header>
     </div>
