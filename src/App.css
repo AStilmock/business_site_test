@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: slategray;
+  padding: 40px;
+  color: white
+}
+
+img {
+  max-width: 150px;
+  margin: 2px;
+}
+
+.bg1 {
+  background-image: url('/Users/stillymonster/Desktop/Screen Shots/great-sand-dunes/jpeg');
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+}
